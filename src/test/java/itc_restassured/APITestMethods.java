@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.*;
 public class APITestMethods {
     String baseUri = "https://reqres.in";
     @Test
-    public void testGetRequest() {
+    public void testGetRequest() { 
         RestAssured.baseURI = baseUri;
         given()
             .when()
